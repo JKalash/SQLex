@@ -1,0 +1,9 @@
+Steps to run:
+
+1. Enter desired SQL instruction in input.txt
+2. CD into folder
+3. Run: java -cp antlr-3.2.jar org.antlr.Tool SQL.g
+4. Run: javac -cp .;antlr-3.2.jar TestSQL.java
+5. Run: java -cp .;antlr-3.2.jar TestSQL
+
+
